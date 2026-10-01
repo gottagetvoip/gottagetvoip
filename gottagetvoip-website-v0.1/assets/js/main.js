@@ -1,0 +1,1 @@
+document.getElementById('year').textContent=new Date().getFullYear();const b=document.getElementById('menu'),l=document.getElementById('links');if(b&&l)b.addEventListener('click',()=>l.classList.toggle('open'));
